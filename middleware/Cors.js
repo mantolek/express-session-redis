@@ -16,3 +16,7 @@ const corsOptions = {
 };
 
 module.exports = cors(corsOptions);
+
+// in headers eg.
+// Origin: https://example1.com
+// Content-Type: application/json
